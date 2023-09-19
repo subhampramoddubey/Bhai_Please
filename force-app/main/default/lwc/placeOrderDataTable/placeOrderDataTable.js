@@ -49,7 +49,7 @@ export default class ObjectDetailDataTable extends NavigationMixin(LightningElem
         if (data) {
             this.objectDetails = data;
         } else if (error) {
-            console.error('Error fetching data: ', error);
+            console.error('Error fetching The data: ', error);
         }
     }
 }
